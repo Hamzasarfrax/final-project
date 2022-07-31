@@ -1,0 +1,131 @@
+.slider-card{
+    background-color: #efefef;
+    margin-top: 2rem;
+
+}
+
+
+
+
+.batn-opacity{
+    position: relative;
+     top: -120%;
+ 
+    border:none;
+    background-color: #177881;
+    text-transform: capitalize;
+    border-radius: 20px;
+    width: 33%;
+
+}
+
+
+ .batn-opacity:hover {
+    opacity: 1;
+    background-color: skyblue;
+    color: #efefef;
+}
+
+.slidr-img{
+
+cursor: pointer;
+
+}
+
+.slidr-img:hover .batn-opacity
+
+
+
+{
+
+    opacity:2;
+
+}
+
+.slick-next{
+
+/* background-color: #177881;
+color: aqua; */
+
+
+}
+
+.slick-prev{
+
+    /* background-color: #177881;
+    color: aqua; */
+    
+    }
+
+
+.slick-next::before {
+content: ">";
+margin-left: -12.5rem;
+background-color: #177881;
+padding: 10px 20px;
+color: #efefef;
+
+}
+
+.slick-prev::before {
+    content: "<";
+
+    background-color: #177881;
+    padding: 10px 20px;
+    color: #efefef;
+  position: relative;
+  right: 24px;
+
+    
+    }
+
+
+
+    .position-card{
+        position: relative;
+        top: 1rem;
+    }
+
+
+
+
+    .animation:hover{
+        transition: all 2s ease-in-out ;
+        transform: scale(0.92);
+        cursor: pointer;
+ 
+    }
+
+
+
+    /* rseponsive layouts */
+
+
+    @media screen and (max-width: 992px)  and  (min-width: 767px){
+
+
+      .batn-opacity{
+          font-size: 13px;
+      }
+    
+    }
+    
+
+    @media screen and (max-width: 1200px)  and  (min-width: 992px){
+
+
+        .batn-opacity{
+            font-size: 12px;
+            
+        }
+      
+
+    }
+
+    @media (max-width: 420px){
+
+        .batn-opacity{
+            font-size: 10px;
+            
+        }
+    }

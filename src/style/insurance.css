@@ -1,0 +1,237 @@
+
+
+
+
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+
+display: none;
+
+}
+
+
+
+.heading-insurnce{
+    position: relative;
+    top: 10rem;
+}
+
+
+.form-heading{
+    text-transform: uppercase;
+ font-weight: bolder;
+ position: relative;
+ right: 5%;
+}
+
+
+.color{
+    text-transform: capitalize;
+    position: relative;
+    margin-left:  20% ;
+}
+.heading-form{
+text-transform: capitalize;
+font-weight: bolder;
+
+  
+}
+.baton-insurance {
+background-color: #177881;
+color: #efefef;
+}
+
+.date-of-birth{
+    border: none;
+    outline: none;
+    background-color: #177881;
+    position: relative;
+    height: 2.3rem;
+    border-radius: 2px;
+}
+.form{
+    position: relative;
+  margin-top: 10rem;
+}
+
+
+.message-box{
+    min-height: 8rem;
+    max-height: 8rem;
+    background-color:LightGray;
+    }
+    .message-box:focus{
+       border: none;
+       outline: none;
+       box-shadow: none;
+       background-color: rgb(190, 190, 190);
+        }
+    
+    
+    /* ===========  this is for botstrap form outline after click  ==============*/
+    
+        .form-travel:focus{
+            border: none;
+            outline: none;
+            box-shadow: none;
+            background-color: rgb(219, 219, 219);
+    
+        }
+    
+    
+        .form-travel{
+            border: none;
+            outline: none;
+            background-color:LightGray;
+    
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    .check-box{
+        accent-color: green;
+        outline: none;
+        box-shadow: none;
+    }
+    
+    
+    
+    .check-box:focus{
+        accent-color: green;
+        outline: none;
+        box-shadow: none;
+    }
+    
+    
+    
+ 
+    
+    .imge-animate{
+        animation-name: change;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    @keyframes change {
+      10%{
+
+    background-image: url("../images/insurance1.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+width: 100%;
+
+      } 
+      50%{
+        background-image: url("../images/insurance2.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+width: 100%;
+height: 40%;
+      }
+      
+      100%{
+        background-image: url("../images/insurance3.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+width: 100%;
+
+
+      }
+    }
+
+.img1{
+    height: 40rem;
+}
+  
+    /* this is responsive layouts */
+    
+  .contain-margin{
+      
+
+  }  
+
+
+    /* thsi is form all data to set
+     */
+
+
+
+.baton-insurance{
+display: inline;
+    position: relative;
+    justify-content: center;
+    left: -20%;
+    align-items: center;
+margin-top: 2rem;
+margin-bottom: 4rem;
+background-color: #177881;
+border: none;
+margin: 20px 10px;
+width: 15%;
+
+
+}
+
+.baton-insurance:hover{
+background-color: #177881;
+color: #efefef;
+
+}
+
+
+.btn-2{
+    margin-left: 84%;
+}
+     .margin{
+         margin-top: 6rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+    
+        @media (max-width:768px){
+    
+    .form{
+        margin-top: 20%;
+    }
+    .baton-insurance{
+        text-align: center;
+        position: relative;
+        left: 30%;
+    }
+
+    @media (max-width:992px)  and (min-width:768px){
+
+        .baton-insurance{
+            width: 30%;
+            margin-left: 40%;
+           }
+    
+
+
+    }
+
+
+        }
+
+        @media (max-width:510px){
+            .baton-insurance{
+             width: 30%;
+             margin-left: 20vw;
+          
+             position: relative;
+             left: -10%;
+            }
+
+        }

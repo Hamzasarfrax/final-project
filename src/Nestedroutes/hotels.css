@@ -1,0 +1,321 @@
+.hotelsdata{
+    position: relative;
+    top: -0.5rem;
+    left: -5%;
+}
+
+.hotelsbatn{
+    margin-left: 45%;
+    background-color: #0d2d41;
+    color: #efefef;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.hotelsbatn:hover{
+    background-color: #efefef;
+    color: #177881;
+}
+
+
+.check{
+    position: absolute;
+    left: 30%;
+}
+.hotelsbatn::after{
+    /* content: "";
+    position: absolute;
+    background-color: #0d2d41;
+    width: 10%;
+    height: 30%;
+    left: 0;
+    right: 0;
+    top: 0; */
+}
+
+
+
+.hotel-search{
+    position: relative;
+width: 17vw;
+}
+
+.hotelbatn-search{
+    background-color: #0d2d41;
+    color: #efefef;
+}
+
+
+
+.hotel-home-batn{
+
+    background-color: #efefef;
+    color: #0d2d41;
+    position: relative;
+    left: 50%;
+  margin: 5px;
+  
+   border: #efefef;
+   border-radius: 4px;
+   z-index: auto;
+   height: 30px;
+   display: inline-block;
+   
+}
+
+.hotel-counter{
+    background-color: none;
+    background-color: #0d2d41;
+ position: relative;
+ top: -5px;
+margin-left: 1px;
+}
+
+.icon-hotel-btn{
+
+    width: 1.5rem;
+height: 1rem;
+position: relative;
+top: -1px;
+}
+
+
+.home-hotels{
+    background-color: #0d2d41;
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    top: 6rem;
+  
+  /* transform: translateX(100%); */
+    z-index: 10000;
+    border-radius: 14px;
+right: 25%;
+
+}
+
+
+.data-hotel-input{
+    position: relative;
+  margin-top: 20%;
+}
+
+
+.no-travels{
+    width: 16.5vw;
+    }
+
+
+
+@media (min-width:1400px) and (max-width:2000px) {
+.no-travels{
+    position: relative;
+    left: -3rem;
+}
+
+.hotelsbatn{
+    position: relative;
+    left: -30%;
+    top: -0.5rem;
+}
+    
+}
+
+
+
+@media (min-width:1200px) and (max-width:1400px) {
+.no-travels{
+    position: relative;
+  left: -11%;
+  width: 18vw;
+}
+.hotelsbatn{
+    position: relative;
+    right: 55%;
+}
+
+.no-travels{
+    width: 16.5vw;
+    }
+
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .home-hotels{
+
+position: absolute;
+left: -25%;
+top: 1rem;
+
+
+
+    }
+    .hotelsdata{
+    
+        position: relative;
+        top: -2rem;
+        left: -15%;
+    }
+
+.hotelsbatn{
+ position: relative;
+ left: 30%;
+ bottom: 3.5rem;
+}
+
+
+.no-travels{
+    position: relative;
+left: 1%;
+  width: 22vw;
+}
+.hotelsbatn{
+    position: relative;
+    right: 55%;
+}
+
+
+
+
+            }
+    
+
+
+            @media (min-width:767px) and (max-width:992px) {
+
+.align-check-in{
+position: relative;
+left: -3rem;
+}
+
+.hotelsdata{
+    position: relative;
+   top: -2.5rem;
+   left: -20%;
+
+}
+
+.hotelsbatn{
+
+    position: relative;
+    bottom: 3rem;
+    left: 30%;
+}
+
+.no-travels {
+ position: relative;
+ left: -16%;
+}
+            }
+
+
+
+            @media (min-width:576px) and (max-width:767px) {
+
+
+            .align-check-in{
+
+         position: absolute;
+         right: 0.4rem;
+         width: 63vw;
+            } 
+
+.hotelsdata{
+    position: relative;
+    top: -6rem;
+  left: -6rem;
+}
+   
+.checkout{
+    margin-top: 6%;
+}
+.checheading{
+position: relative;
+top: 2rem;
+
+
+}
+
+.hade{
+    left: 3rem;
+}
+
+.home-hotels{
+    margin-left: 25vw;
+}
+
+
+}
+
+
+@media  (max-width:576px) {
+
+.home-hotels{
+  
+ margin-left: 12vw;
+}
+
+    .align-check-in{
+
+        position: absolute;
+        right: 0.6rem;
+        width: 60vw;
+           } 
+
+.hotelsdata{
+   position: relative;
+   top: -6rem;
+ left: -25%;
+}
+  
+.checkout{
+   margin-top: 6%;
+}
+.checheading{
+position: relative;
+top: 2rem;
+
+
+}
+
+.hade{
+   left: 3rem;
+   opacity: 0;
+}
+
+.no-travels{
+min-width: 25%;
+}
+
+
+}
+
+
+@media  (max-width:460px) {
+    .hade{
+        left: 3rem;
+     }
+     .align-check-in {
+        right: 0.6rem;
+        width: 58vw;
+     }
+         .home-hotels{
+             margin-left: 100px;
+         }
+         .hotelsbatn{
+             margin-top: 5px;
+             margin-left: 10px;
+         }
+}
+
+
+
+
+@media  (max-width:400px) {
+    .align-check-in {
+        right: 0.6rem;
+        width: 60vw;
+     }
+      
+}

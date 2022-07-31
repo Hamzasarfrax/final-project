@@ -1,0 +1,704 @@
+.navbar-search{
+width: 100%;
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+}
+
+.links-search{
+position: absolute;
+top: 37.5%;
+left: 16%;
+transform: translate(-50%,-50%);
+background-color: #0d2d41; 
+width: 32%;
+height: 5%;
+margin-left: 20%;
+margin-right: 80%;
+display: flex;
+flex-direction: row;
+border-top-left-radius: 25px;
+
+
+}
+
+
+
+.search-page{
+ position: relative;
+ left: 4%;
+ margin: 12px;
+ top: 15%;
+ text-decoration: none;
+ text-transform: uppercase;
+color: #fefeff;
+font-weight: bolder;
+padding: 10px 5px;
+
+}
+
+
+.search-page:hover{
+    background-color: #efefef;
+    color: #0d2d41;
+    padding: 6px 13px 8px 8px;
+
+}
+
+.search-page:focus{
+background-color: #efefef;
+color :black;
+padding: 6px 13px 8px 8px;
+}
+
+.check{
+    position: absolute;
+    top: 45%;
+    left: 17%;
+    /* background-color: aliceblue; */
+}
+
+
+.home-search{
+ position: relative;
+ width: 50vw;
+ top: 20%;
+ right: 14%;
+
+}
+
+.searchbatn{
+    background-color: #0d2d41;
+    color: #fefeff;
+}
+/* this is icomn of colors */
+
+.icon-color{
+    background-color: rgb(169, 169, 177);
+    color: black;
+    width: 2rem;
+    height: 2rem;
+}
+
+.icon-color:hover{
+
+    transition: all 2s ease-in-out;
+    /* transform: translate(margin to right s); */
+}
+
+
+.flights-date{
+position: relative; 
+display: inline-block;
+/* bottom: 20%; */
+
+height: 2.4rem;
+border-radius: 8px;
+color: #0d2d41;
+
+}
+
+.home-flights{
+    background-color: #0d2d41;
+    position: relative;
+    height: 25rem;
+    width: 25rem;
+    top: 80%;
+    left: 40%;
+    transform: translate(-100%,15%);
+    z-index: 10000;
+    border-radius: 4px;
+}
+
+.flights-home-batn{
+    background-color: #efefef;
+    color: #0d2d41;
+    position: relative;
+    left: 55%;
+    margin: 5px;
+  
+   border: #efefef;
+   border-radius: 4px;
+   z-index: auto;
+   height: 30px;
+   display: inline-block;
+  
+ 
+}
+.flights-data{
+    position: relative;
+    right: 7%;
+}
+
+.counter{
+    background-color: none;
+    background-color: #0d2d41;
+ position: relative;
+ top: -10px;
+margin-left: 1px;
+}
+
+.batn-of-flights{
+background-color: #efefef;
+border: none;
+border-radius: 7px;
+color: black;
+display: relative;
+display: inline;
+margin: 3%;
+width: 5%;
+min-width: 40%;
+font-size: 11px;
+flex-direction: column;
+font-weight: bolder;
+
+
+}
+.cursor{
+    cursor: pointer;
+}
+.focus:focus{
+accent-color: green;
+}
+.border{
+    border-radius: 10px;
+}
+
+.batn-of-flights:hover{
+background-color:skyblue;
+color: white;
+
+}
+
+.icon-flights-btn{
+width: 1.5rem;
+height: 1rem;
+position: relative;
+top: -13px;
+}
+
+
+.display{
+    display: inline-block;
+    right: 3rem;
+    top: 5%;
+    position: relative;
+  padding: 0px 10px;
+}
+
+.date-marging{
+    position: relative;
+    left: 8rem;
+}
+.lenght{
+    width: 12vw;
+}
+
+.space{
+    position: relative;
+    left: 48%;
+}
+
+.packages-search{
+width: 50vw;
+margin-top: 5%;
+}
+
+.hotel-width{
+    display: inline;
+max-width: 90%;
+}
+
+.no-travels{
+
+    
+    position: relative;
+  bottom: 0.5rem;
+}
+
+
+.batn-flights{
+    background-color: #0d2d41;
+    color: #efefef;
+    outline: none;
+    border: none; 
+}
+
+.batn-flights:hover{
+    background-color: #efefef;
+    color: #0d2d41;
+}
+
+.packages-search {
+    position: relative;
+    right: 13%;
+}
+/* thsis is responsive layouts */
+
+@media (min-width:1200px) and (max-width:1400px) {
+    
+    .flights-data{
+ 
+    }
+    
+    
+    .links-search{
+        position: absolute;
+        top: 37.5%;
+        left: 17.5%;
+        transform: translate(-50%,-50%);
+        background-color: #0d2d41; 
+        width: 35%;
+        height: 5%;
+        margin-left: 20%;
+        margin-right: 80%;
+        display: flex;
+        flex-direction: row;
+        border-top-left-radius: 25px;
+        
+        
+        }
+
+        .smal-sarc-sixe{
+         max-width: 50vw;
+            margin-top: 3%;
+            }
+        .home-search{
+
+            width: 50vw;
+        position: relative;
+        /* right: 15%; */
+left: -13%;
+        }
+
+        .packages-search{
+            width: 70vw;
+        }
+
+        .date-marging{
+            position: relative;
+         margin-left: 50px;
+           width: 13vw;
+
+           
+        }
+        .space{
+            position: relative;
+            left: 20%;
+        }
+        .flights-data{
+
+position: relative;
+left: -12%;
+        }
+.date-marging{
+    position: relative;
+    left: 10%;
+}
+
+
+    }
+    
+
+
+        @media (min-width:992px) and (max-width:1200px) {
+.no-travels{
+position: relative;
+left: 2rem;
+
+}
+.hotelsdata{
+
+    position: relative;
+    top: -4rem;
+}
+
+
+
+.date-marging{
+    position: relative;
+ margin-left: 20px;
+   width: 13vw;
+
+   
+}
+.space{
+    position: relative;
+    left: 20%;
+    z-index: 1000;
+    cursor: pointer;
+}
+.flights-data{
+
+position: relative;
+left: -12%;
+}
+.date-marging{
+position: relative;
+left: 10%;
+cursor: pointer;
+}
+
+.packages-search{
+    width: 70vw;
+}
+
+        }
+
+
+
+
+        @media (min-width:900px) and (max-width:992px) {
+            .links-search{
+margin-left: 18%;
+
+
+
+            }
+.search-page{
+
+}
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+@media (min-width:1000px) and (max-width:1200px) {
+
+
+  
+
+
+
+    .display{
+        display: inline-block;
+        right: 7rem;
+        top: 5%;
+        position: relative;
+      padding: 0px 20px;
+
+    
+    }
+    
+    .date-marging{
+        position: relative;
+        left: 90%;
+    }
+
+    .contain-box{
+        display: flex;
+        border-radius: 30px;
+        position: absolute;
+        background-color: #efefef;
+        width: 80%;
+        left: 50%;
+        top: 50%;
+    height: 30%;
+    opacity: 0.4;
+        transform: translate(-50%,-50%);
+    }
+
+    .links-search{
+        position: absolute;
+        top: 37.5%;
+        left: 12.8%;
+        transform: translate(-50%,-50%);
+        background-color: #0d2d41; 
+        width: 40vw;
+        height: 5%;
+        margin-left: 17.3%;
+        margin-right: 80%;
+        display: flex;
+        flex-direction: row;
+        border-top-left-radius: 25px;
+        
+        
+        }
+
+        .search-page{
+            margin-left: 39px;
+           justify-content: space-between;
+          
+         
+        }
+        .vis{
+            margin-left: 66px;
+        }
+
+        .home-hotels{
+            display: grid;
+            position: relative;
+            left: -50vw;
+            margin-top: 4rem;
+            }
+            .packages-search{
+                display: grid;
+                position: relative;
+           left: -20%;
+              
+                width: 60vw;
+                }
+.lenght{
+    width: 14vw;
+   position: relative;
+   left: 3rem;
+ 
+    
+    
+}
+  .space{
+      width: 15vw;
+      left: 60%;
+  }        
+.lenght-from{
+    width: 14vw;
+    position: relative;
+    
+}
+
+.date-marging{
+  
+}
+}
+
+
+@media (min-width:900px) and (max-width:1000px) {
+
+
+    .display{
+        display: inline-block;
+        right: 7rem;
+        top: 5%;
+        position: relative;
+      padding: 0px 10px;
+    }
+    
+    .date-marging{
+        position: relative;
+      left: 2px;
+    }
+
+    .contain-box{
+        display: flex;
+   
+        position: absolute;
+        background-color: #efefef;
+        width: 55rem;
+        left: 50%;
+        top: 50%;
+    height: 30%;
+    opacity: 0.4;
+        transform: translate(-50%,-50%);
+    }
+
+    .links-search{
+  
+width: 50%;
+margin-left: 130px;
+        
+        }
+
+        .search-page{
+           margin: 59px;
+        }
+
+.visa{
+   
+
+}
+
+.display{
+    width: 32vw;
+    margin-top: 2%;
+    top: -2rem;
+}
+.batn-flights{
+
+    position: relative;
+    left: 50%;
+    top: -35%;
+    
+}
+.width{
+
+    width: 30vw;
+}
+
+.hotelsdata{
+
+ position: relative;
+margin-bottom: 4rem;
+
+width: 100%;
+
+}
+.home-hotels{
+display: grid;
+position: relative;
+left: -55vw;
+margin-top: 4rem;
+}
+
+
+.space{
+    left: -1%;
+
+}  
+
+.lenght{
+    width: 30vw;
+}
+.no-travels{
+    right: 3rem;
+    top: 2px;
+}
+
+
+}
+
+@media (max-width:902px){
+
+
+    .visa{
+
+    }
+
+    .no-travels{
+        right: 3rem;
+        top: 2px;
+    }
+}
+
+
+
+@media   (min-width:102px) and  (max-width:900px){
+    .contain-box{
+width: 100%;
+height: 50%;
+    }
+
+
+.links-search{
+ /* background-color:#0d2d41; */
+ width: 100vw;
+ left: 30%;
+ right: auto;
+top: 12rem;
+border-top-left-radius: 1px;
+
+}
+
+.search-page{
+   
+
+left: 75%;
+
+}
+
+.packages-search{
+    display: grid;
+    position: relative;
+   left: -4rem;
+    margin-top: 4rem;
+    width: 60vw;
+    }
+
+    .home-hotels{
+        display: grid;
+        position: relative;
+        left: -50vw;
+        margin-top: 4rem;
+        }
+
+        .display{
+            width: 32vw;
+            margin-top: 2%;
+            top: -5rem;
+        }
+.width{
+
+    width: 30vw;
+
+}
+.date-marging {
+    left: 0%;
+   
+}
+    .space{
+        left: -1%;
+
+    }  
+
+    .lenght{
+        width: 30vw;
+    }
+.batn-flights{
+    top: -40%;
+    left: 50%;
+    position: relative;
+}
+
+}
+
+
+
+@media (min-width:102px) and  (max-width:576px){
+
+    .home-search{
+
+    width: 75vw;
+   right: 30%;
+ 
+}
+
+.packages-search{
+    width:75vw ;
+    left: -25%
+}
+
+}
+
+@media (max-width:490px) {
+    
+
+
+.search-page{
+ position: relative;
+ left: 70%;
+ font-size: 10px;
+}
+
+.display{
+
+    width: 60vw;
+}
+.batn-flights{
+
+position: relative;
+bottom: 4rem;
+
+}
+
+.width{
+    width: 56vw;
+}
+
+.lenght{
+    width: 56vw;
+}
+
+
+}

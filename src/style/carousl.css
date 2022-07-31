@@ -1,0 +1,23 @@
+
+
+
+.main-img{
+  background-image: url("../images/text.jpg");
+  background-position: top;
+
+  background-repeat: no-repeat;
+height: 48rem;
+background-size:100% 90% ;
+position: relative;
+justify-content: center;
+align-content: center;
+}
+
+
+
+.text{
+  font-weight: bolder;
+  position: relative;
+  top: -10rem;
+
+}

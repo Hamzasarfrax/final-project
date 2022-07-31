@@ -1,0 +1,701 @@
+
+
+.data-home{
+position: relative;
+margin-top: 20%;
+
+}
+
+
+
+
+
+.our-porduct{
+
+    position: relative;
+    
+    text-transform: capitalize;
+    bottom: 5rem;
+  
+}
+
+
+
+.main-section{
+    background-color: grey;
+    width: 100%;
+    height: 60rem;
+ 
+}
+
+.product{
+  background-color: aliceblue;
+  width: 19rem;
+  margin-top: 4rem;
+
+
+
+}
+
+.card{
+    background-color: aliceblue;
+}
+
+.image-card{
+
+   border-radius: 70%;
+   margin-left: 2.4rem;
+   margin-top: 1rem;
+
+}
+
+
+
+.product-hover{
+
+    margin-bottom: 8rem;
+    position: relative;
+    top: -2rem;
+    background-color: #efefef;
+ 
+}
+
+
+.icons-box{
+    background-color: black;
+position: relative;
+width: 4rem;
+height: 4rem;
+border-radius: 40px;
+padding-top: 17px;
+margin-left: 41%;
+color: #efefef;
+animation-name: icon-box  ;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+
+}
+@keyframes icon-box {
+    30%{
+        transform: rotateZ(90deg);  
+        background-color: skyblue;
+        color: black;
+      
+    }
+    60%{
+        transform: rotateZ(180deg);  
+        background-color: rgb(6, 10, 12);
+        color: skyblue;
+      
+    }
+    100%{
+        transform: rotateZ(360deg);  
+        background-color: #177881;
+        color: #efefef;
+      
+    }
+  
+
+
+}
+
+.icons-box:hover{
+
+background-color: skyblue;
+color: black;
+    transition: all 1s ease-in-out;
+    transform: rotateZ(360deg);
+}
+
+.pick-up{
+
+
+    position: relative;
+}
+
+
+
+
+/* 
+thisn is logo wala data */
+
+
+.about-us{
+    position: relative;
+    bottom: 11rem;
+}
+
+
+
+.info-main{
+    position: relative;
+    display: grid;
+    place-items: center;
+    text-transform: capitalize;
+}
+
+/* this is logo main color */
+
+.logo-info{
+    background-color: #efefef;
+    position: relative;
+    bottom: 12rem;
+}
+
+
+/* this is logo animate in home about us */
+
+
+
+.stand-animate{
+    width: 8rem;
+}
+
+
+
+
+
+
+
+.logo-animate{
+
+    width: 4rem;
+  padding-top: 20px;
+        animation-name: animate;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+
+   
+   }
+   
+   @keyframes animate {
+        from {
+             transform: perspective(100px) rotateY(360deg);
+        }
+   
+        to {}
+   }
+
+
+
+
+
+
+
+
+
+
+   /* thsi is sock type data */
+
+
+   .sock{
+background-color: #efefef;
+       height: 30rem;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       
+   }
+
+
+/* thsi is contact us form of main page home */
+
+
+
+/* thsis is is form backgroubd */
+
+
+
+
+
+.form-data{
+
+background-color: #efefef;
+/* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+padding-left: 40px;
+margin-left: 40px;
+height: 30.1rem;
+}
+
+
+
+
+
+
+.form-main{
+   border: none;
+   border-bottom: 1px solid black;
+   background-color: #efefef;
+}
+
+
+.form-main:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #efefef;
+    border-bottom: 2px solid black;
+ }
+ 
+
+
+
+/* this is button */
+
+.form-btn{
+    position: relative;
+    background-color: #177881;
+    border: none;
+    border-radius: 20px;
+    width: 7rem;
+   align-items: center;
+   display: block;
+   justify-content: center;
+
+}
+
+
+
+.form-btn:hover{
+
+    background-color: #816262;
+} 
+
+
+
+
+/* thsi is animate iamge in sock */
+
+.animate-world{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 150px;
+    opacity: 20000;
+
+animation-name: animate-world;
+animation-duration: 9s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+
+}
+
+@keyframes animate-world {
+    from{
+transform: rotateZ(360deg);
+
+    }
+
+    to{
+
+       
+    }
+}
+
+
+
+
+/* this is footer top data of newsletter */
+
+.baton-of-news{
+    border: 2px solid grey;
+    border-radius: 18px;
+}
+
+
+.subcribe-batn{
+    position: relative;
+    left: 72%;
+bottom: 2.5rem;
+    background-color: #0d2d41;
+    border: none;
+    height: 2.5rem;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.news-input{
+    position: relative;
+    top: 6rem;
+}
+
+/* this is foter top al,ost backfround */
+.news-bg{
+background-color: #efefef;
+height: 15rem;
+position: relative;
+top: 2rem;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+/* 
+this is servisecs hreading */
+
+
+
+.service-heading{
+    position: relative;
+  top: -7rem;
+ 
+}
+
+
+
+/* thsi is sponcser wla dat */
+
+
+.sponser{
+    position: relative;
+    top: 1rem;
+    color: #ffffff;
+}
+
+
+.set-width{
+
+    width: 100%;
+    text-transform: capitalize;
+
+
+}
+
+
+.colar{
+    font-weight: bolder;
+    color: skyblue;
+}
+.colr{
+    font-weight: bolder;
+    color: #0d2d41;  
+}
+
+
+
+
+
+/* test dreive hogai hai kamyaab */
+
+
+.horzontal{
+    position: relative;
+    background-color: #0d2d41;
+   
+}
+
+
+.line-horixontal{
+   
+    position: relative;
+    width: 24rem;
+    border: 1px dotted #0d2d41;
+    top: -3rem;
+    left: 14.6rem;
+}
+.line-horixontal .icons-box:hover{
+    background-color: skyblue;
+    color: black;
+        transition: all 1s ease-in-out;
+        transform: rotatez(360deg);
+
+
+
+}
+
+.third{
+    opacity: none;
+visibility: hidden;
+}
+
+
+.opacity{
+
+    opacity: 2;
+}
+
+.map-img{
+    /* position: relative; */
+ 
+
+background-image: url("../images/Map.png");
+ position: relative;
+height: 32rem;
+background-size: contain;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+/* background-position: center; */
+
+  
+}
+
+
+.trans{
+    opacity: 0.90;
+}
+
+
+.transform{
+    opacity: 0.80;
+}
+
+
+.data-pick{
+    position: relative;
+    top: -11rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* this is main data of image with container */
+
+
+.contain-box{
+    display: flex;
+    border-radius: 30px;
+    position: absolute;
+    background-color: #efefef;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+height: 30%;
+opacity: 0.4;
+    transform: translate(-50%,-50%);
+}
+
+.warning{
+    z-index: 500000;
+  
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+}
+.togle2{
+    z-index: 500000;
+  
+    position: absolute;
+    left: 20%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+}
+.togle3{
+    z-index: 500000;
+  
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+}
+
+
+.travel-wave-main-heading{
+    position: relative;
+    top: 2rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    /* color: #0d2d41; */
+    font-size: 60px;
+    color:  skyblue;
+    box-shadow: rgba(0, 0, 0, ) 0px 5px 15px;
+ 
+}
+/* ========thsi is responsive layouts ======*/
+@media (max-width:767px){
+
+    .main-section{
+        background-color: grey;
+        width: 100%;
+        height: 110rem;
+     
+    }
+
+}
+
+
+
+
+
+/* this is for adjusment for responsive */
+
+.dsetinations{
+    position: relative;
+    bottom: 1rem;
+}
+
+
+.slider-card{
+    position: relative;
+    bottom: 9rem;
+}
+
+
+.service-heading{
+    position: relative;
+    bottom: 10rem;
+}
+
+.about{
+    position: relative;
+    bottom: 4rem;
+}
+
+
+
+
+/* a0l0l0 responsive layouts for ho0me page things */
+
+/* this is xl devices  */
+
+@media screen and (max-width: 1400px)  {
+.line-horixontal{
+    opacity: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px)  and  (max-width: 1400px){
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 800px)  and  (min-width: 200px){
+    .data-home{
+        margin-top: 40%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 992px)  and  (min-width: 767px){
+
+
+    .icons-box{
+        position: relative;
+    /* left: 2rem; */
+    left: 4%;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px)  and  (min-width: 576px){
+    .icons-box{
+        position: relative;
+    /* left: 2rem; */
+    left: 2%;
+
+    }
+
+
+    .map-img{
+position: relative;
+height: 70rem;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:776px) {
+    .form-data{
+
+        margin-top: 20%;
+    margin-left: -1px;
+    }
+
+
+
+
+.subcribe-batn{
+    margin-left: -3rem;
+  
+}
+
+.form-data{
+}
+
+}
+
+
+/* this is 576px */
+
+
+
+
+@media (max-width:576px) {
+
+
+    .news-input{
+        margin-top: -8rem;
+        margin-left: 4rem;
+
+    }
+
+.news-pick-up{
+    position: relative;
+
+}
+
+
+.icons-box{
+    position: relative;
+/* left: 2rem; */
+left: 1%;
+
+}
+
+.map-img{
+    position: relative;
+    height: 70rem;
+    
+        }
+}
+
+
+@media (max-width:460px){
+    .data-home{
+
+  margin-top: 15rem;
+    }
+}

@@ -4,7 +4,20 @@ import {Link} from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import {Button, Navbar, Nav} from 'react-bootstrap';
 import   "../style/contact.css";  
+
+import emailjs from '@emailjs/browser';
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_0jdj2uf', 'template_qa2s0d4', form.current, 'sIPjnPO3B0-c7Eyim')
+      .then((result) => {
+          
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   return (
     <div className='contact-page'>
@@ -13,7 +26,7 @@ const Contact = () => {
 
         <div className="map-img" >
 
-<div className='container my-5'>
+<div className='container my-5' data-aos="fade-down">
   <div className='row'>
     <div className='col-sm'>
     
@@ -31,7 +44,7 @@ const Contact = () => {
 {/* this is contact and animate w\orld div */}
 <div className='data-pick'>
 
-<div className='container ' >
+<div className='container '  >
 
   <div className='row'>
 
@@ -54,25 +67,25 @@ const Contact = () => {
 
     <div className='col-md form-data transform  '>
       <div className=' my-5'>
-<Form>
+<Form ref={form} onSubmit={sendEmail}>
     <Form.Group className="mb-3" controlId="formBasicPassword">
   
-    <Form.Control type="name" placeholder="Name" className='form-main' />
+    <Form.Control type="name" placeholder="Name" className='form-main' name="name" required />
   </Form.Group>
 
   <Form.Group className="mb-3" controlId="formBasicPassword">
 
-    <Form.Control type="number" placeholder="Phone"  className='form-main'/>
+    <Form.Control type="number" placeholder="Phone"  className='form-main' name="phone" required/>
   </Form.Group>
 
 
   <Form.Group className="mb-3" controlId="formBasicPassword">
   
-    <Form.Control type="email" placeholder="Email" className='form-main' />
+    <Form.Control type="email" placeholder="Email" className='form-main' name="email" required/>
   </Form.Group>
 
 
-  <Form.Select aria-label="Default select example" className='form-main mb-3' >
+  <Form.Select aria-label="Default select example" className='form-main mb-3' name="visa" required>
   <option>Select</option>
   <option value="1">Visa</option>
   <option value="2">Flight</option>
@@ -82,11 +95,11 @@ const Contact = () => {
 
   <Form.Group className="mb-3" controlId="formBasicPassword">
 
-    <Form.Control as="textarea" type="message" placeholder="Messsage" className='form-main MAX-WID'/>
+    <Form.Control as="textarea" type="message" placeholder="Messsage" className='form-main MAX-WID' name="message" required/>
   </Form.Group>
   
   
-  <Button variant="primary" type="submit" className='form-btn'>
+  <Button variant="primary" type="submit" className='form-btn' >
     Submit
   </Button>
 
@@ -109,13 +122,17 @@ Call Us: 03 111 123 002</p>
 
 
 
-
+<div data-aos="fade-up-right">
 
 <Flagslider/>
 
+</div>
 
 
-<div className='container news-bg'>
+
+
+
+<div className='container news-bg' fade-up-left>
   <div className='row'>
     <div className='col-sm'>
 <h1 className="text-center my-5">News Letter's</h1>

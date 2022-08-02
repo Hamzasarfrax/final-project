@@ -88,7 +88,7 @@ function Data(e){
       {/* this is for checkbox */}
 
 
-<div className='container margin  contain-margin'data-aos="fade-down">
+<div className='container margin  contain-margin' data-aos="fade-down">
 <div className='row'>
 <h1 className='text-center mb-5 form-heading'> Travel Insurance Form</h1>
   <div className='col-sm-4 col-6 col-xl-4 col-md-4'>

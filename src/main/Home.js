@@ -290,7 +290,7 @@ With a world full of fascinating destinations, choosing the perfect vacation spo
 {/* this is contact and animate w\orld div */}
 <div className='data-pick'>
 
-<div className='container ' >
+<div className='container ' data-aos="fade-up">
 
   <div className='row'>
 
@@ -378,7 +378,7 @@ Call Us: 03 111 123 002</p>
 
 
 
-<div className='container news-bg' >
+<div className='container news-bg' data-aos="flip-left">
   <div className='row'>
     <div className='col-sm'>
 <h1 className="text-center my-5">News Letter's</h1>

@@ -53,3 +53,19 @@ overflow-x: hidden;
 }
 
 
+.btn:focus{
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: #40267c;
+}
+
+.loader{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+position: absolute;
+  color: green;
+}

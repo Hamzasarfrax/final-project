@@ -251,17 +251,24 @@ height: 30.1rem;
    align-items: center;
    display: block;
    justify-content: center;
-
+   border: none;
+outline: none;
 }
 
 
 
 .form-btn:hover{
-
+    border: none;
+    outline: none;
     background-color: #816262;
 } 
 
-
+.form-btn:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #816262;
+} 
 
 
 /* thsi is animate iamge in sock */

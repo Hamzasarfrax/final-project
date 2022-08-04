@@ -42,6 +42,12 @@ background-color: #177881;
 color: #efefef;
 }
 
+.baton-insurance
+:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
 .date-of-birth{
     border: none;
     outline: none;
@@ -189,10 +195,25 @@ color: #efefef;
 
 }
 
+.baton-insurance:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
 
 .btn-2{
     margin-left: 84%;
+    
 }
+
+.btn-2:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+    
+}
+   
      .margin{
          margin-top: 6rem;
       display: flex;

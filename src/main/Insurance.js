@@ -46,10 +46,6 @@ const Insurance = () => {
             src={require("../images/insurance.jpeg")}
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <img
@@ -73,11 +69,11 @@ const Insurance = () => {
 
       <div className="container margin  contain-margin" data-aos="fade-down">
         <div className="row">
-          <h1 className="text-center mb-5 form-heading">
+          <h1 className="text-center mb-5 form-heading ">
             {" "}
             Travel Insurance Form
           </h1>
-          <div className="col-sm-4 col-6 col-xl-4 col-md-4">
+          <div className="col-sm-4 col-6 col-xl-4 col-md-4  ">
             <Form.Label className="py-2 text-center color">
               schengen
               <Form.Check
@@ -88,7 +84,7 @@ const Insurance = () => {
             </Form.Label>
           </div>
 
-          <div className="col-sm-4 col-6 col-xl-4 col-md-4">
+          <div className="col-sm-4 col-6 col-xl-4 col-md-4 ">
             <Form.Label className="py-2 text-center color">
               world wide
               <Form.Check
@@ -99,7 +95,7 @@ const Insurance = () => {
             </Form.Label>
           </div>
 
-          <div className="col-sm-4 col-4 col-xl-4 col-md-4">
+          <div className="col-sm-4 col-4 col-xl-4 col-md-4  ">
             <Form.Label className="py-2 text-center color">
               other countries
               <Form.Check
@@ -163,7 +159,8 @@ const Insurance = () => {
                   </Form.Label>
 
                   <div className=" ">
-                    <input type="date"
+                    <input
+                      type="date"
                       onChange={onChange}
                       value={value}
                       className="w-100 form-travel  date-of-birth"

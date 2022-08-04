@@ -28,13 +28,13 @@ const Foter = () => {
               Home
             </a>
 
-            <a href="#">About</a>
+            <a href="/about">About</a>
 
-            <a href="#">Visa</a>
+            <a href="/visa">Visa</a>
 
-            <a href="#">Insurance</a>
+            <a href="/insurance">Insurance</a>
 
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </p>
 
           <p className="footer-company-name text-white">Travel Wave © 2022</p>

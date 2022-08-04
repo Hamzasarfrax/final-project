@@ -52,12 +52,12 @@ right: 20rem;
     position: absolute;
     background-color: skyblue;
     width: 0;
-    height: 3px;
+    height: 2px;
     top: 100%;
     left: 0;
     right: 0;
     border-radius: 3px;
-   
+   margin-top: 5px;
 
     transition: all 0.5s ease-in-out linear;
 }

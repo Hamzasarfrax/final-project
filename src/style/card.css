@@ -19,6 +19,12 @@
 
 }
 
+.batn-opacity:target{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: #000;
+}
 
  .batn-opacity:hover {
     opacity: 1;

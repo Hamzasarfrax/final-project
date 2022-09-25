@@ -14,7 +14,7 @@ const Foter = () => {
       <footer className="footer-distributed">
         <div className="footer-left">
           <h3>
-            <span>
+            <span className="fotor-logo-img">
               <img
                 src={require("../images/ftrlogo.png")}
                 className="w-50 "
@@ -104,7 +104,7 @@ const Foter = () => {
               <span className="sponser">Sponser </span>
             </p>
 
-            <div className="footer-icons d-flex  footer-card">
+            <div className="footer-icons d-flex footer-card ">
               <a href="#">
                 <img
                   src={require("../images/payment1.png")}

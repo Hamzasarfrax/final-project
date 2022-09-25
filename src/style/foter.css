@@ -206,7 +206,11 @@ border-radius: 4px;
 height: 2rem;
 }
 
-
+.footer-card {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 5px;
+}
 
 
 
@@ -215,7 +219,23 @@ height: 2rem;
 
 
 /* If you don't want the footer to be responsive, remove these media queries */
-
+@media (max-width: 576px) {
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: none;
+	}
+	.footer-distributed .footer-center p {
+		display:block;
+		color: #ffffff;
+		font-weight: 400;
+		vertical-align: middle;
+		margin: 0;
+	}
+}
 @media (max-width: 880px) {
 
 	.footer-distributed{

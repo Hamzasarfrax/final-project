@@ -1,21 +1,22 @@
 .App {
   text-align: center;
 }
-html , body{
+html  body{
 
   margin: 0;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+font-family: "popin",sans-serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 overflow-x: hidden;
+
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.loader{
+  background-color: #D8D8D8;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

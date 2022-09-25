@@ -9,10 +9,10 @@ import { Button, Navbar, Nav } from "react-bootstrap";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Flagslider from "../main/Flagslider";
 import { Link, Outlet } from "react-router-dom";
-import search from "../Nestedroutes/search.css";
-import Searchbar from "../Nestedroutes/Searchbar";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Pills from "./Pills";
 const Home = () => {
   AOS.init({});
   // const [show ,notshow]=useState(togle());
@@ -22,18 +22,10 @@ const Home = () => {
   return (
     <div className="all-home-content">
       <div className="main-img">
-        <div className="container overflow-hidden">
-          <div className="row">
-            <div className="contain-box"></div>
-            <div className="col-xl-12">
-              {/* <h1 className="text-center travel-wave-main-heading" >welcome to travel wave</h1> */}
-              <div></div>
-              <Searchbar />
-            </div>
-          </div>
-        </div>
+      <Pills/>
       </div>
-
+     
+    
       {/* hamza sadksnbnfb */}
 
       {/* this is image hover home like mr travel */}

@@ -10,28 +10,30 @@ import Insurance from "./main/Insurance";
 import Header from "./main/Header";
 import Page404 from "./main/Page404";
 import Foter from "./main/Foter";
-import { ClipLoader } from "react-spinners";
+import { Circles } from 'react-loader-spinner';
 
-import Visahome from "./Nestedroutes/Visahome";
-import Flights from "./Nestedroutes/Flights";
-import Hotel from "./Nestedroutes/Hotel";
-import Packages from "./Nestedroutes/Packages";
+// import Visahome from "./Nestedroutes/Visahome";
+// import Flights from "./Nestedroutes/Flights";
+// import Hotel from "./Nestedroutes/Hotel";
+// import Packages from "./Nestedroutes/Packages";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
 
 function App() {
   const [loading, setloading] = useState(true);
   useEffect(() => {
-    setloading(false);
+    setloading(true)
     setTimeout(() => {
-      setloading(false);
-    }, 5000);
-  });
+      setloading(false)
+    }, 3000);
+
+  }, [])
   return (
     <>
       {loading ? (
         <div className="loader">
           {" "}
-          <ClipLoader color={""} loading={loading} size={150} />{" "}
+          <Circles color={"AEBDCA"} loading={loading} size={150} />{" "}
         </div>
       ) : (
         <BrowserRouter>
@@ -39,10 +41,7 @@ function App() {
 
           <Routes>
             <Route exact path="/" element={<Home />}>
-              <Route exact path="/" element={<Visahome />} />
-              <Route exact path="/hotels" element={<Hotel />} />
-              <Route exact path="/flights" element={<Flights />} />
-              <Route exact path="/Packages" element={<Packages />} />
+          
             </Route>
             <Route exact path="/about" element={<About />} />
             <Route exact path="/visa" element={<Visa />} />
